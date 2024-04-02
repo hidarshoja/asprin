@@ -1,0 +1,25 @@
+{
+  "name": "asprin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.3",
+    "autoprefixer": "10.4.19",
+    "next": "14.1.4",
+    "next13-progressbar": "^1.2.1",
+    "postcss": "8.4.38",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "slick-slider": "^1.8.2",
+    "tailwindcss": "3.4.1"
+  }
+}
