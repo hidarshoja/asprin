@@ -50,10 +50,10 @@ export default function HeaderComponent() {
                     پویش
                   </Link>
                   <Link
-                    href="#"
+                    href="/home/Doctor"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-colorText  hover:text-[#CDA12E]"
                   >
-                    پرسش و پاسخ
+                      پزشکان
                   </Link>
                   <Link
                     href="/home/aboutUs"
