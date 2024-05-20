@@ -140,43 +140,21 @@ export default function SwiperDoctor2() {
                   </div>
                   <div className="w-[94%] flex items-center justify-between absolute bottom-[-10px] left-2">
                     <div className="flex items-center gap-2">
-                      <div className="w-[22px] h-[22px] rounded-sm flex items-center justify-center bg-[#304A59]">
+                      <div className="w-[52px] h-[22px] rounded-sm gap-1 flex items-center justify-center bg-[#304A59]">
                         <img
                           src="/call1.svg"
                           className="w-[15px] h-[15px]"
                           alt="1"
                         />
+                        <span className="text-white text-xs">تماس</span>
                       </div>
-                      <div className="w-[22px] h-[22px] rounded-sm flex items-center justify-center bg-[#304A59]">
-                        <img
-                          src="/call2.svg"
-                          className="w-[15px] h-[15px]"
-                          alt="1"
-                        />
-                      </div>
-                      <div className="w-[22px] h-[22px] rounded-sm flex items-center justify-center bg-[#304A59]">
-                        <img
-                          src="/call3.svg"
-                          className="w-[15px] h-[15px]"
-                          alt="1"
-                        />
+                      
+                      <div className="w-[80px] text-white text-xs h-[22px] rounded-sm flex items-center justify-center bg-[#304A59]">
+                        مشاهده پرفایل
                       </div>
                     </div>
-                    <div className="w-[60%] h-[23px] bg-[#bebebc] rounded-md flex items-center px-2 text-colorText text-[8px] justify-between">
+                    <div className="w-[40%] text-center h-[23px] bg-[#bebebc] rounded-md flex items-center px-2 text-colorText text-[8px]">
                       <div>3.8 از 5 | از 47 نظر</div>
-                      <div className="flex items-center">
-                        <img src="/star1.svg" alt="" />
-                        <img src="/star1.svg" alt="" />
-                        <img src="/star1.svg" alt="" />
-                        <img src="/star1.svg" alt="" />
-                        <img src="/star1.svg" alt="" />
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <span>مشاهده پرفایل</span>
-                        <span>
-                          <img src="/Vec.svg" alt="" />
-                        </span>
-                      </div>
                     </div>
                   </div>
                 </div>
