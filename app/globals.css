@@ -10,3 +10,7 @@
 body{
     font-family: "ABee" !important;
 }
+
+.slick-list {
+    background-color: #FBFAF6 !important;
+}

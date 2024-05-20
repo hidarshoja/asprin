@@ -3,6 +3,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../components/Article.css"
 
 export default function SliderDoctor() {
   const settings = {
@@ -48,7 +49,7 @@ export default function SliderDoctor() {
   return (
     <div className="mt-24">
       <div className="w-[100%]">
-        <Slider {...settings} className="w-[90%] bg-white mx-auto">
+        <Slider {...settings} className="w-[90%] bg-white mx-auto Patientdiv">
           <div className="styleSliderBox  mt-12 relative">
               <div className="w-full h-[80px]">
                 <div className="w-[111px] mx-auto relative">

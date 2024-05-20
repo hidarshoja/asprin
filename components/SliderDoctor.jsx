@@ -49,7 +49,7 @@ export default function SliderDoctor() {
   return (
     <div className="overflow-hidden">
       <div className="w-[100%]">
-        <Slider {...settings} className="w-[90%] bg-white mx-auto">
+        <Slider {...settings} className="w-[90%] bg-white mx-auto stylePatientdiv">
           <div className="styleSlider">
             <div className="flex w-full">
               <div className="w-7/12 relative">

@@ -5,7 +5,7 @@ import "./home.css";
 import SliderDoctor from "@/components/SliderDoctor";
 import SupportPage from "@/components/Support";
 import ArticlesComponent from "@/components/Articles";
-import Slider from "@/components/SliderPatient"
+import Slider from "@/components/SliderPatient";
 
 const MainHome = () => {
   let Services = [
@@ -180,29 +180,34 @@ const MainHome = () => {
         <SupportPage />
       </div>
       <div>
-      <div className="flex items-center justify-center h-56">
+        <div className="flex items-center justify-center h-56">
           <div className="w-[50%]   relative flex items-center justify-center">
             <span className="w-full absolute top-10 h-[2px] bg-[#ECEBE9]"></span>
             <p className="bg-[#f9e6be] absolute top-6 w-[183px] h-8 rounded-lg flex items-center justify-center text-colorText text-base">
-               تجربیات بیمار
-            </p>
-          </div>
-        </div>
-         <div>
-           <Slider />
-         </div>
-      </div>
-      <div>
-      <div className="flex items-center justify-center h-40">
-          <div className="w-[50%]   relative flex items-center justify-center">
-            <span className="w-full absolute top-10 h-[2px] bg-[#ECEBE9]"></span>
-            <p className="bg-[#f9e6be] absolute top-6 w-[183px] h-8 rounded-lg flex items-center justify-center text-colorText text-base">
-               مقالات
+              تجربیات بیمار
             </p>
           </div>
         </div>
         <div>
-            <ArticlesComponent />
+          <Slider />
+        </div>
+      </div>
+      <div>
+        <div className="flex items-center justify-center h-40">
+          <div className="w-[50%]   relative flex items-center justify-center">
+            <span className="w-full absolute top-10 h-[2px] bg-[#ECEBE9]"></span>
+            <p className="bg-[#f9e6be] absolute top-6 w-[183px] h-8 rounded-lg flex items-center justify-center text-colorText text-base">
+              مقالات
+            </p>
+          </div>
+        </div>
+        <div>
+          <ArticlesComponent />
+        </div>
+        <div className="w-full flex items-center justify-center mt-12">
+          <p className="bg-[#f9e6be]   w-[183px]  h-8 rounded-lg flex items-center justify-center text-colorText text-base cursor-pointer">
+            سایر مقالات
+          </p>
         </div>
       </div>
     </div>
