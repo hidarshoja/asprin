@@ -205,7 +205,7 @@ export default function HeaderComponent() {
               </Disclosure.Button>
               <Disclosure.Button
                 as={Link}
-                href="#"
+                href="/home/ServicesPage"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800"
               >
                 خدمات
@@ -219,10 +219,10 @@ export default function HeaderComponent() {
               </Disclosure.Button>
               <Disclosure.Button
                 as={Link}
-                href="#"
+                href="/home/Doctor"
                 className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800"
               >
-                پرسش و پاسخ
+                 پزشکان
               </Disclosure.Button>
               <Disclosure.Button
                 as={Link}
