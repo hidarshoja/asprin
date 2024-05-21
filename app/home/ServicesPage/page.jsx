@@ -15,12 +15,12 @@ export default function page() {
         </p>
         <BoxDoctorServices />
         <CommentUser />
-        <div className="w-full  mt-8">
+        <div className="w-full  mt-20">
           <h3 className="text-center text-[#31546B] font-bold text-2xl py-8">سایر پزشکان مرتبط</h3>
           <div>
            <SliderDoctor2 />
           </div>
-          <div>
+          <div className="mt-20 mb-10">
           <h3 className="text-center text-[#31546B] font-bold text-2xl py-8"> مقالات  مرتبط</h3>
             <ArticlesServices />
           </div>

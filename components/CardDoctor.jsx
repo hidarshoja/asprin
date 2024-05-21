@@ -5,23 +5,23 @@ export default function CardDoctor() {
   return (
     <div className="flex items-center justify-center flex-wrap gap-x-5 gap-y-12">
          {numbers.map((number , index) => (
-      <div className="w-full lg:w-[379px] h-[161px] border border-[#EAE9E7] bg-white rounded-[4px] shadow-2xl py-3 px-4 flex relative" key={index}>
+      <div className="w-full lg:w-[379px] h-[185px] border border-[#F6F6F5] bg-[#FFF] rounded-[4px] shadow-2xl py-3 px-4 flex relative" key={index}>
         <div className="w-[65%]">
-          <p className="text-colorText text-base font-semibold">
+          <p className="text-colorText text-sm lg:text-base font-semibold">
             دکتر عبدالقیوم بفکین
           </p>
-          <p className="text-[#9c9c9a] text-[11px] font-bold py-1 flex items-center gap-2">
+          <p className="text-[#9c9c9a] text-[11px] font-bold py-2 flex items-center gap-2">
             <span className="bg-colorText w-[5px] h-[5px] rounded-full"></span>
             <span>متخصص جراحی مغز و اعصاب و ستون فقرات</span>
           </p>
           <div className="flex gap-3 items-center justify-start mt-3">
-            <span className="flex items-center justify-around gap-1 rounded-3xl border border-[#b4b3b1] bg-white w-1/4">
+            <span className="flex items-center justify-around gap-1 rounded-3xl border border-[#F0EFED] bg-[##FBFAF6] w-1/4">
               <span>
                 <img src="/locMap.svg" className="w-2 h-2" alt="" />
               </span>
               <span className="text-[9px] text-colorText">شهریار</span>
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-3xl border border-[#b4b3b1] bg-white w-1/4">
+            <span className="flex items-center justify-around gap-1 rounded-3xl border border-[#F0EFED] bg-[##FBFAF6] w-1/4">
               <span>
                 <img src="/locMap.svg" className="w-2 h-2" alt="" />
               </span>
@@ -29,22 +29,22 @@ export default function CardDoctor() {
             </span>
           </div>
           <div className="flex gap-3 items-center justify-start mt-5">
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
               آلزایمر
             </span>
             
@@ -64,8 +64,8 @@ export default function CardDoctor() {
                         مشاهده پرفایل
                       </div>
                     </div>
-                    <div className="w-[40%] text-center h-[23px] bg-[#bebebc] rounded-md flex items-center px-2 text-colorText text-[8px]">
-                      <div>3.8 از 5 | از 47 نظر</div>
+                    <div className="w-[40%] text-center h-[23px] bg-[#F4F4F4] rounded-md flex items-center px-2 text-colorText text-[8px]">
+                      <div>4.3 (96 نظر)</div>
                     </div>
                   </div>
         </div>
@@ -74,6 +74,12 @@ export default function CardDoctor() {
         </div>
       </div>
        ))}
+
+       <div className="w-full flex items-center justify-center mt-10">
+        <span className="text-[#000] text-base lg:text-[20px] font-bold">
+        نمایش تعداد خدمات دهندگان در هر صفحه تا 30 مورد
+        </span>
+       </div>
     </div>
   );
 }

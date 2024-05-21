@@ -418,12 +418,12 @@ export default function Page() {
         </div>
       )}
 
-      <div className=" border px-4  border-[#ecebe9] rounded-2xl bg-[#fbfaf6] min-h-[1202px]  relative pb-12">
-        <div className="absolute w-[90%] lg:w-[50%] py-1.5  rounded-3xl bg-[#C0BFBB] text-[#A3A3A3] text-[11px] top-[-14px] px-2 right-5">
+      <div className=" border px-4  border-[#ecebe9] rounded-2xl bg-[#F8F8F8] min-h-[1202px]  relative pb-12">
+        <div className="absolute w-[90%] lg:w-[50%] py-1.5  rounded-3xl text-[#A3A3A3] text-[11px] top-[-24px] px-2 right-5">
           خانه | پزشک ها | داندن پزشک
         </div>
         <div className="w-full flex gap-6  mt-10">
-          <div className="hidden lg:flex w-full lg:w-1/3">
+          {/* <div className="hidden lg:flex w-full lg:w-1/3">
             <select
               name="select"
               id="select"
@@ -436,8 +436,8 @@ export default function Page() {
               <option value="option2">گزینه ۲</option>
               <option value="option3">گزینه ۳</option>
             </select>
-          </div>
-          <div className="w-full lg:w-1/3 relative">
+          </div> */}
+          <div className="w-full lg:w-3/4 relative">
             <input
               type="search"
               name="email"
@@ -451,7 +451,7 @@ export default function Page() {
               className="absolute left-3 cursor-pointer top-1"
             />
           </div>
-          <div className="w-full lg:w-1/3 relative">
+          <div className="w-full lg:w-1/4 relative">
             <input
               type="text"
               name="email"
@@ -476,6 +476,7 @@ export default function Page() {
                 <span>
                   <img src="/fillter.svg" className="" alt="" />
                 </span>
+                <span>3</span>
                 <span>فیلتر کردن</span>
               </button>
 
@@ -509,7 +510,7 @@ export default function Page() {
                 </button>
               )}
             </div>
-            <div className="w-full border absolute bottom-3 z-0"></div>
+            <div className="w-full border absolute bottom-[-10px] z-0"></div>
           </div>
         </div>
         {/* ادامه دو بخشی شدن متخصص قلب و عروق در شهریار  */}
@@ -573,16 +574,16 @@ export default function Page() {
               متخصص قلب و عروق در شهریار
             </div>
             <div className="w-full flex items-center justify-center gap-4 mt-6 flex-wrap">
-              <button className="bg-bgB text-white py-1 px-4 rounded-3xl hover:bg-[#3c5c6e] text-[10px] lg:text-sm">
+              <button className="bg-bgB text-Text2 border border-[#FEF5D6] py-1 px-4 rounded-3xl  text-[10px] lg:text-sm">
                 متخصص قلب کودکان
               </button>
-              <button className="bg-bgB text-white py-1 px-4 rounded-3xl hover:bg-[#3c5c6e] text-[10px] lg:text-sm">
+              <button className="bg-bgB text-Text2 border border-[#FEF5D6] py-1 px-4 rounded-3xl  text-[10px] lg:text-sm">
                 فلوشیپ الکتروفیزیولوژی قلب
               </button>
-              <button className="bg-bgB text-white py-1 px-4 rounded-3xl hover:bg-[#3c5c6e] text-[10px] lg:text-sm">
+              <button className="bg-bgB text-Text2 border border-[#FEF5D6] py-1 px-4 rounded-3xl  text-[10px] lg:text-sm">
                 متخصص قلب ریه
               </button>
-              <button className="bg-bgB text-white py-1 px-4 rounded-3xl hover:bg-[#3c5c6e] text-[10px] lg:text-sm">
+              <button className="bg-bgB text-Text2 border border-[#FEF5D6] py-1 px-4 rounded-3xl  text-[10px] lg:text-sm">
                 جراح قلب
               </button>
             </div>
@@ -593,10 +594,8 @@ export default function Page() {
           </div>
         </div>
         <div className="absolute w-[130px] h-6  bottom-[-12px] left-[35%] flex items-center gap-3">
-          <div className="w-[22px] h-[22px] bg-bgB rounded-md"></div>
-          <div className="w-[22px] h-[22px] bg-bgB rounded-md"></div>
-          <div className="w-[22px] h-[22px] bg-bgB rounded-md"></div>
-          <div className="w-[22px] h-[22px] bg-bgB rounded-md"></div>
+          <div className="w-[51px] h-[45px] bg-[#4F6C7D] rounded-md"></div>
+          
         </div>
       </div>
 

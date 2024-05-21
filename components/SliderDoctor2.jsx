@@ -104,9 +104,9 @@ export default function SwiperDoctor2() {
         <Swiper {...settings} className="w-[90%] bg-[#FBFAF6] mx-auto h-[200px]">
           {doctorData.map((doctor, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full lg:w-[379px] h-[161px] border border-[#EAE9E7] bg-white rounded-[4px] shadow-2xl py-3 px-4 flex relative">
+              <div className="w-full lg:w-[366px] h-[185px] border border-[#F6F6F5] bg-white rounded-[4px]  py-3 px-4 flex relative">
                 <div className="w-[65%]">
-                  <p className="text-colorText text-base font-semibold">
+                  <p className="text-[#657D8B] text-base font-semibold">
                     {doctor.name}
                   </p>
                   <p className="text-[#9c9c9a] text-[11px] font-bold py-1 flex items-center gap-2">
@@ -117,12 +117,12 @@ export default function SwiperDoctor2() {
                     {doctor.locations.map((location, locIndex) => (
                       <span
                         key={locIndex}
-                        className="flex items-center justify-around gap-1 rounded-3xl border border-[#b4b3b1] bg-white w-1/4"
+                        className="flex items-center justify-around gap-1 rounded-3xl border border-[#f0efed] bg-[#fbfaf6] w-1/4"
                       >
                         <span>
                           <img src="/locMap.svg" className="w-2 h-2" alt="" />
                         </span>
-                        <span className="text-[9px] text-colorText">
+                        <span className="text-[9px] text-[#646568]">
                           {location}
                         </span>
                       </span>
@@ -132,7 +132,7 @@ export default function SwiperDoctor2() {
                     {doctor.ratings.map((rating, ratingIndex) => (
                       <span
                         key={ratingIndex}
-                        className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#ECEFF6] w-1/6"
+                        className="flex items-center justify-around gap-1 rounded-sm border border-[#EDF8FF] text-[11px] text-[#304A59] bg-[#F8FEFF] w-1/6"
                       >
                         {rating}
                       </span>
@@ -140,21 +140,21 @@ export default function SwiperDoctor2() {
                   </div>
                   <div className="w-[94%] flex items-center justify-between absolute bottom-[-10px] left-2">
                     <div className="flex items-center gap-2">
-                      <div className="w-[52px] h-[22px] rounded-sm gap-1 flex items-center justify-center bg-[#304A59]">
+                      <div className="w-[52px] h-[22px] rounded-sm gap-1 flex items-center justify-center bg-[#406479]">
                         <img
                           src="/call1.svg"
                           className="w-[15px] h-[15px]"
                           alt="1"
                         />
-                        <span className="text-white text-xs">تماس</span>
+                        <span className="text-white text-[10px]">تماس</span>
                       </div>
                       
-                      <div className="w-[80px] text-white text-xs h-[22px] rounded-sm flex items-center justify-center bg-[#304A59]">
+                      <div className="w-[80px] text-white text-xs h-[22px] rounded-sm flex items-center justify-center bg-[#406479] text-[10px]">
                         مشاهده پرفایل
                       </div>
                     </div>
-                    <div className="w-[40%] text-center h-[23px] bg-[#bebebc] rounded-md flex items-center px-2 text-colorText text-[8px]">
-                      <div>3.8 از 5 | از 47 نظر</div>
+                    <div className="w-[40%] text-center h-[23px] bg-[#F4F4F4] rounded-md flex items-center px-2 text-[#979797] text-[8px]">
+                      <div>4.3 (96 نظر)</div>
                     </div>
                   </div>
                 </div>

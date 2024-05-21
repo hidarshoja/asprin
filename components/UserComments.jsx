@@ -46,11 +46,11 @@ const comments = [
 
 const UserComments = () => {
   return (
-    <div className="px-1">
+    <div className="pl-6 pr-1">
    
-      <div className="flex items-center w-full justify-between">
-        <h2 className="text-lg font-semibold mb-2">نظرات کاربران</h2>
-        <div className="text-sm text-gray-600 mb-4">96 نفر</div>
+      <div className="flex items-center w-full justify-between py-4 border-b ">
+        <h2 className="text-lg pl-8 pr-1 rounded-tl-full py-1 font-semibold mb-2 bg-[#FFF9E5] text-[#31546B]">نظرات کاربران</h2>
+        <div className="text-base font-bold text-[#5B7380] mb-4">96 نفر</div>
       </div>
       <div className="overflow-y-auto h-64  p-2">
         {comments.map((comment, index) => (
@@ -87,7 +87,7 @@ const UserComments = () => {
           </div>
         ))}
       </div>
-      <div className="mt-4">
+      <div className="mt-4 pl-8 pr-1 relative">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center gap-2">
             <input type="text" placeholder="محمد فرساد" className="w-32 h-7 rounded-sm outline-none fill-[#f5f5f5] border px-1" />
@@ -115,8 +115,8 @@ const UserComments = () => {
           className="w-full h-24 p-2 border border-gray-300 rounded-md mb-2"
           placeholder="نظرتان را بنویسید..."
         ></textarea>
-        <div className="w-full flex items-end justify-end">
-        <button className="px-4 py-2 bg-gray-200 text-gray-800 text-sm font-semibold rounded hover:bg-gray-300">
+        <div className="w-full flex items-end justify-end absolute left-12 bottom-8">
+        <button className="px-3 py-1 bg-[#FBFAF6] border border-[#D0D0D0] text-[#979797] text-sm font-semibold rounded">
           ارسال نظر
         </button>
         </div>

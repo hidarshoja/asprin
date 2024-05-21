@@ -14,8 +14,9 @@ module.exports = {
       },
       colors :{
         "colorText" : "#304958",
-        "bgB" : "#304A59",
-        "bgB2" : "#EEE"
+        "bgB" : "#FBFAF6",
+        "bgB2" : "#EEE",
+        "Text2" : "#31546B"
       }
     },
   },

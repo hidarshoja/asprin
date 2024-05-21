@@ -19,7 +19,7 @@ export default function CommentUser() {
        
        <div className='hidden lg:block lg:w-1/4'>
              <div className='w-full border border-[#EEE] shadow-xl h-[263px] rounded-xl flex flex-col items-center bg-white py-2 justify-between'>
-                         <img src="/doctor.svg" className='w-[50px] h-[50px] rounded-full border-4 border-[#f9e6be]' alt="" />
+                         <img src="/doctor.svg" className=' w-[50px] h-[50px] rounded-full border-4 border-[#f9e6be]' alt="" />
                          <p className='text-colorText font-bold text-xl'>
                          ارتباط با دکتر شاهی 
                          </p>

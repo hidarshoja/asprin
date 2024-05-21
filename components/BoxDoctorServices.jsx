@@ -86,13 +86,13 @@ export default function BoxDoctorServices() {
       <p className="text-colorText text-base font-bold w-[170px] bg-[#FEF5D6] p-1 rounded-tl-2xl mt-6 text-center lg:hidden">
         شماره تماس و آدرس
       </p>
-      <div className="w-full py-4  min-h-[118px] bg-[#F7F7F7] shadow-lg flex flex-col gap-3">
+      <div className="w-full py-4  min-h-[118px] bg-[#F7F7F7] shadow-lg flex flex-col gap-3 rounded-b-[10px]">
         <div className="w-full flex flex-col lg:flex-row gap-2 py-2 lg:items-center justify-between pl-1 text-colorText">
-          <div className="text-colorText font-bold text-base bg-[#fef5d6] w-[100px] rounded-l-xl text-center">
+          <div className="text-colorText font-bold text-base bg-[#fef5d6] w-[100px] py-2 rounded-l-xl text-center">
             شهریار
           </div>
           <div className="flex items-center gap-1">
-            <p className="text-colorText px-2 lg:hidden text-base font-bold">
+            <p className="text-[#31546B] px-2 lg:hidden text-base font-bold">
                 آدرس : 
             </p>
             <img src="/loc5.svg" alt="" />
@@ -133,8 +133,11 @@ export default function BoxDoctorServices() {
             </div>
           </div>
         </div>
+       <div className="px-3">
+       <div className="w-full h-[1px] bg-[#ECECEC]"></div>
+       </div>
         <div className="w-full flex flex-col lg:flex-row gap-2 py-2 lg:items-center justify-between pl-1 text-colorText">
-          <div className="text-colorText font-bold text-base bg-[#fef5d6] w-[100px] rounded-l-xl text-center">
+          <div className="text-colorText font-bold py-2 text-base bg-[#fef5d6] w-[100px] rounded-l-xl text-center">
             سعادت آباد
           </div>
           <div className="flex items-center gap-1">
