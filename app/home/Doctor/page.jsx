@@ -418,7 +418,7 @@ export default function Page() {
         </div>
       )}
 
-      <div className=" border px-4  border-[#ecebe9] rounded-2xl bg-[#F8F8F8] min-h-[1202px]  relative pb-12">
+      <div className=" border px-1 lg:px-4  border-[#ecebe9] rounded-2xl bg-[#F8F8F8] min-h-[1202px]  relative pb-12">
         <div className="absolute w-[90%] lg:w-[50%] py-1.5  rounded-3xl text-[#A3A3A3] text-[11px] top-[-24px] px-2 right-5">
           خانه | پزشک ها | داندن پزشک
         </div>
