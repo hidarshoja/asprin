@@ -9,29 +9,29 @@ import Slider from "@/components/SliderPatient";
 
 const MainHome = () => {
   let Services = [
-    { id: 1, title: "داروخانه", src: "/icons2.svg" },
-    { id: 2, title: "مرکز تصویر برداری", src: "/icon8.png" },
-    { id: 3, title: "آزمایشگاه", src: "/icons3.svg" },
-    { id: 4, title: "درمانگاه و کلینیک", src: "/icons4.svg" },
-    { id: 5, title: "پرستار در منزل", src: "/icons5.svg" },
-    { id: 6, title: "آمبولانس خصوصی", src: "/icons6.png" },
-    { id: 7, title: "تجهیزات پزشکی", src: "/icons7.png" },
-    { id: 8, title: "پزشک", src: "/icon10.png" },
-    { id: 9, title: "دامپزشکی", src: "/icons9.png" },
+    { id: 1, title: "داروخانه", src: "/icons2.svg", src2:"/brain2.svg"  },
+    { id: 2, title: "مرکز تصویر برداری", src: "/icon8.png" , src2:"/brain2.svg" },
+    { id: 3, title: "آزمایشگاه", src: "/icons3.svg" , src2:"/brain2.svg" },
+    { id: 4, title: "درمانگاه و کلینیک", src: "/icons4.svg" , src2:"/brain2.svg" },
+    { id: 5, title: "پرستار در منزل", src: "/icons5.svg", src2:"/brain2.svg"  },
+    { id: 6, title: "آمبولانس خصوصی", src: "/icons6.png", src2:"/brain2.svg"  },
+    { id: 7, title: "تجهیزات پزشکی", src: "/icons7.png" , src2:"/brain2.svg" },
+    { id: 8, title: "پزشک", src: "/icon10.png", src2:"/brain2.svg"  },
+    { id: 9, title: "دامپزشکی", src: "/icons9.png", src2:"/brain2.svg"  },
   ];
   let Expertise = [
-    { id: 1, title: "متخصص مغز و اعصاب", src: "/ico1.svg" },
-    { id: 2, title: "متخصص قلب و عروق", src: "/ico2.svg" },
-    { id: 3, title: "ارتوپد", src: "/ico3.svg" },
-    { id: 4, title: "چشم پزشک", src: "/ico4.svg" },
-    { id: 5, title: "متخصص زنان و زایمان", src: "/ico5.svg" },
-    { id: 6, title: "متخصص آورولوژی", src: "/ico6.svg" },
-    { id: 7, title: "متخصص تغذیه", src: "/ico7.svg" },
-    { id: 8, title: "متخصص تغذیه", src: "/ico8.svg" },
-    { id: 9, title: "متخصص پوست و مو", src: "/ico9.svg" },
-    { id: 3, title: "دکتر داخلی", src: "/ico10.svg" },
-    { id: 3, title: "متخصص کودکان", src: "/ico11.svg" },
-    { id: 3, title: "متخصص گوش و بینی", src: "/ico12.svg" },
+    { id: 1, title: "متخصص مغز و اعصاب", src: "/brain1.svg", src2:"/brain2.svg" },
+    { id: 2, title: "متخصص قلب و عروق", src: "/Heart1.svg", src2:"/Heart2.svg" },
+    { id: 3, title: "ارتوپد", src: "/orthopedist1.svg", src2:"/orthopedist2.svg" },
+    { id: 4, title: "چشم پزشک", src: "/Eye1.svg" , src2:"/Eye2.svg"},
+    { id: 5, title: "متخصص زنان و زایمان", src: "/women1.svg" , src2:"/women2.svg"  },
+    { id: 6, title: "متخصص آورولوژی", src: "/1.svg" , src2:"/women2.svg" },
+    { id: 7, title: "متخصص تغذیه", src: "/ico7.svg", src2:"/women2.svg" },
+    { id: 8, title: "متخصص دهان و دندان", src: "/ico8.svg" , src2:"/women2.svg"},
+    { id: 9, title: "متخصص پوست و مو", src: "/ico9.svg" , src2:"/women2.svg"},
+    { id: 10, title: "دکتر داخلی", src: "/ico10.svg" , src2:"/women2.svg"},
+    { id: 11, title: "متخصص کودکان", src: "/ico11.svg" , src2:"/women2.svg"},
+    { id: 12, title: "متخصص گوش و بینی", src: "/ico12.svg", src2:"/women2.svg" },
   ];
   return (
     <div className="w-full h-auto">
@@ -118,6 +118,7 @@ const MainHome = () => {
                 id={service.id}
                 title={service.title}
                 src={service.src}
+                src2={service.src2}
               />
             ))}
           </div>
@@ -155,6 +156,7 @@ const MainHome = () => {
                 id={expertises.id}
                 title={expertises.title}
                 src={expertises.src}
+                src2 ={expertises.src2}
               />
             ))}
           </div>
