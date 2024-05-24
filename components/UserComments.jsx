@@ -88,7 +88,7 @@ const UserComments = () => {
         ))}
       </div>
       <div className="mt-4 pl-8 pr-1 relative">
-        <div className="flex items-center justify-between w-full">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between w-full">
           <div className="flex items-center gap-2">
             <input type="text" placeholder="محمد فرساد" className="w-32 h-7 rounded-sm outline-none fill-[#f5f5f5] border px-1" />
             <span className="text-green-500 flex items-center">
@@ -98,7 +98,7 @@ const UserComments = () => {
               <FaFrown />
             </span>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-col lg:flex-row md:items-center gap-2">
             <label className="block mb-2 text-sm font-medium text-gray-700">
               به خدمات دهنده چند امتیاز میدی؟
             </label>

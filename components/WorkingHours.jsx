@@ -26,11 +26,11 @@ const WorkingHours = () => {
           <h2 className="text-colorText w-[110px] px-1 py-3 rounded-tl-full font-semibold bg-[#FFF9E5]">ساعت کاری</h2>
           <div>
             <span className="text-colorText w-[110px] px-2 py-3 rounded-l-full font-semibold mb-2 bg-[#fffbee] border border-[#fef5d6]">شهریار:</span>
-            <span className="mr-2 text-colorText text-lg">شنبه، دوشنبه، چهارشنبه 17 الی 22</span>
+            <span className="mr-2 text-colorText text-[16px] lg:text-lg">شنبه، دوشنبه، چهارشنبه 17 الی 22</span>
           </div>
           <div>
             <span className="text-colorText w-[110px] px-2 py-3 rounded-l-full font-semibold mb-2 bg-[#fffbee] border border-[#fef5d6]">سعادت آباد:</span>
-            <span className="mr-2 text-colorText text-lg">شنبه، دوشنبه، چهارشنبه 17 الی 22</span>
+            <span className="mr-2 text-colorText text-[16px] lg:text-lg">شنبه، دوشنبه، چهارشنبه 17 الی 22</span>
           </div>
           <div className="flex justify-center flex-wrap gap-2">
             <div className="flex flex-col items-center gap-3">

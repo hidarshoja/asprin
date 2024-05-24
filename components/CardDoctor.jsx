@@ -5,46 +5,46 @@ export default function CardDoctor() {
   return (
     <div className="flex items-center justify-center flex-wrap gap-x-5 gap-y-12">
          {numbers.map((number , index) => (
-      <div className="w-full lg:w-[379px] h-[185px] border border-[#F6F6F5] bg-[#FFF] rounded-[4px] shadow-2xl py-3 px-4 flex relative" key={index}>
-        <div className="w-[65%]">
-          <p className="text-colorText text-sm lg:text-base font-semibold">
+      <div className="w-[366px] min-h-[185px] border border-[#F6F6F5] bg-[#FFF] rounded-[4px] shadow-2xl py-3 px-4 flex relative" key={index}>
+        <div className="w-[75%]">
+          <p className="text-colorText text-[20px] font-semibold">
             دکتر عبدالقیوم بفکین
           </p>
-          <p className="text-[#9c9c9a] text-[11px] font-bold py-2 flex items-center gap-2">
+          <p className="text-[#9c9c9a] text-[14px] font-bold py-1 flex items-center gap-2">
             <span className="bg-colorText w-[5px] h-[5px] rounded-full"></span>
             <span>متخصص جراحی مغز و اعصاب و ستون فقرات</span>
           </p>
-          <div className="flex gap-3 items-center justify-start mt-3">
+          <div className="flex gap-3 items-center justify-start mt-1">
             <span className="flex items-center justify-around gap-1 rounded-3xl border border-[#F0EFED] bg-[##FBFAF6] w-1/4">
               <span>
                 <img src="/locMap.svg" className="w-2 h-2" alt="" />
               </span>
-              <span className="text-[9px] text-colorText">شهریار</span>
+              <span className="text-[12px] text-colorText">شهریار</span>
             </span>
             <span className="flex items-center justify-around gap-1 rounded-3xl border border-[#F0EFED] bg-[##FBFAF6] w-1/4">
               <span>
                 <img src="/locMap.svg" className="w-2 h-2" alt="" />
               </span>
-              <span className="text-[9px] text-colorText">شهریار</span>
+              <span className="text-[12px] text-colorText">شهریار</span>
             </span>
           </div>
-          <div className="flex gap-3 items-center justify-start mt-5">
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
+          <div className="flex gap-3 items-center justify-start mt-3">
+            <span className="flex items-center justify-around gap-1 rounded-[3px] border border-[#CCE5F5] text-[12px] px-1 py-[2px] text-colorText bg-[#EDF8FF] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-[3px] border border-[#CCE5F5] text-[12px] px-1 py-[2px] text-colorText bg-[#EDF8FF] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-[3px] border border-[#CCE5F5] text-[12px] px-1 py-[2px] text-colorText bg-[#EDF8FF] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-[3px] border border-[#CCE5F5] text-[12px] px-1 py-[2px] text-colorText bg-[#EDF8FF] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-[3px] border border-[#CCE5F5] text-[12px] px-1 py-[2px] text-colorText bg-[#EDF8FF] w-1/6">
               آلزایمر
             </span>
-            <span className="flex items-center justify-around gap-1 rounded-sm border border-[#b4b3b1] text-[9px] text-colorText bg-[#CCE5F5] w-1/6">
+            <span className="flex items-center justify-around gap-1 rounded-[3px] border border-[#CCE5F5] text-[12px] px-1 py-[2px] text-colorText bg-[#EDF8FF] w-1/6">
               آلزایمر
             </span>
             
@@ -69,8 +69,8 @@ export default function CardDoctor() {
                     </div>
                   </div>
         </div>
-        <div className="w-[35%]">
-          <img src="/doctor2.svg" className="rounded-full w-[115px] h-[115px] border-[3px] lg:border-[#fee5d6]" alt="" />
+        <div className="w-[25%]">
+          <img src="/doctor2.svg" className="rounded-full w-full h-auto border-[3px] lg:border-[#fee5d6]" alt="" />
         </div>
       </div>
        ))}

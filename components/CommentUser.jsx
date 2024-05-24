@@ -17,8 +17,8 @@ export default function CommentUser() {
          <WorkingHours />
        </div>
        
-       <div className='hidden lg:block lg:w-1/4'>
-             <div className='w-full border border-[#EEE] shadow-xl h-[263px] rounded-xl flex flex-col items-center bg-white py-2 justify-between'>
+       <div className='hidden lg:block lg:w-1/4 relative'>
+             <div className='w-full border border-[#EEE] shadow-xl h-[263px] rounded-xl flex flex-col items-center bg-white py-2 justify-between sticky top-2'>
                          <img src="/doctor2.svg" className=' w-[50px] h-[50px] rounded-full border-4 border-[#f9e6be]' alt="" />
                          <p className='text-colorText font-bold text-xl'>
                          ارتباط با دکتر شاهی 

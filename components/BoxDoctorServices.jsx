@@ -4,19 +4,22 @@ import React from "react";
 export default function BoxDoctorServices() {
   return (
     <div>
-      <div className="w-full rounded-t-2xl border min-h-[284px] py-8 px-6 bg-white mt-6 flex flex-col   justify-between">
-        <div className="w-full  flex   justify-between">
-          <div className="w-1/4 flex flex-col items-center">
+      <div className="w-full rounded-t-2xl border min-h-[284px] py-8 px-1 lg:px-6 bg-white mt-6 flex flex-col   justify-between relative">
+      <p className="text-[#31546b] text-[12px]  absolute bottom-1 left-2 lg:hidden">
+              شماره نظام پزشکی: 109486
+            </p>
+        <div className="w-full  flex gap-1 lg:gap-3   justify-between">
+          <div className="w-2/6 lg:w-1/4 flex flex-col items-center">
             <img
               src="/doctor2.svg"
               alt="doctor"
-              className="w-[90px] h-[90px] lg:w-[200px] lg:h-[200px] border-4 border-[#f9e6be] rounded-full"
+              className="w-full h-auto lg:w-[200px] lg:h-[200px] border-4 border-[#f9e6be] rounded-full"
             />
-            <p className="text-[#31546b] text-sm lg:text-[14px] font-bold mt-3">
+            <p className="text-[#31546b] text-sm lg:text-[14px] font-bold mt-3 hidden lg:flex">
               شماره نظام پزشکی: 109486
             </p>
           </div>
-          <div className="w-2/4 flex flex-col justify-around">
+          <div className="w-5/6 lg:w-2/4 flex flex-col justify-around">
             <p className="font-bold text-base  lg:text-2xl text-colorText">
               دکتر مریم شاهی
             </p>
@@ -44,12 +47,12 @@ export default function BoxDoctorServices() {
               </button>
             </div>
           </div>
-          <div className="w-1/4 flex  flex-col items-end justify-between">
+          <div className="w-1/6 lg:w-1/4 flex  flex-col items-end justify-between">
             <div>
-              <img src="/Ellip.svg" className="w-[70px] h-[70px]" alt="" />
+              <img src="/Ellip.svg" className="w-[36px] h-[36px] lg:w-[70px] lg:h-[70px]" alt="" />
             </div>
             <div>
-              <span className="hidden lg:flex gap-8">
+              <span className="hidden lg:flex flex-col xl:flex-row w-full gap-2">
                 <span className=" flex">
                   <img src="/star.svg" alt="" />
                   <img src="/star.svg" alt="" />
@@ -183,6 +186,7 @@ export default function BoxDoctorServices() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }

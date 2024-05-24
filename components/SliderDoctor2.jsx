@@ -104,16 +104,16 @@ export default function SwiperDoctor2() {
         <Swiper {...settings} className="w-[90%] bg-[#FBFAF6] mx-auto h-[200px]">
           {doctorData.map((doctor, index) => (
             <SwiperSlide key={index}>
-              <div className="w-full lg:w-[366px] h-[185px] border border-[#F6F6F5] bg-white rounded-[4px]  py-3 px-4 flex relative">
-                <div className="w-[65%]">
-                  <p className="text-[#657D8B] text-base font-semibold">
+              <div className="w-full md:w-[366px] min-h-[185px] border border-[#F6F6F5] bg-white rounded-[4px]  py-3 px-4 flex relative">
+                <div className="w-[75%]">
+                  <p className="text-[#657D8B] text-[20px] font-semibold">
                     {doctor.name}
                   </p>
-                  <p className="text-[#9c9c9a] text-[11px] font-bold py-1 flex items-center gap-2">
+                  <p className="text-[#9c9c9a] text-[14px] font-bold py-1 flex items-center gap-2">
                     <span className="bg-colorText w-[5px] h-[5px] rounded-full"></span>
                     <span>{doctor.specialty}</span>
                   </p>
-                  <div className="flex gap-3 items-center justify-start mt-3">
+                  <div className="flex gap-3 items-center justify-start mt-1">
                     {doctor.locations.map((location, locIndex) => (
                       <span
                         key={locIndex}
@@ -122,17 +122,17 @@ export default function SwiperDoctor2() {
                         <span>
                           <img src="/locMap.svg" className="w-2 h-2" alt="" />
                         </span>
-                        <span className="text-[9px] text-[#646568]">
+                        <span className="text-[12px] text-[#646568]">
                           {location}
                         </span>
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-3 items-center justify-start mt-5">
+                  <div className="flex gap-3 items-center justify-start mt-3">
                     {doctor.ratings.map((rating, ratingIndex) => (
                       <span
                         key={ratingIndex}
-                        className="flex items-center justify-around gap-1 rounded-sm border border-[#EDF8FF] text-[11px] text-[#304A59] bg-[#F8FEFF] w-1/6"
+                        className="flex items-center justify-around gap-1 rounded-[3px] border border-[#EDF8FF] text-[12px] text-[#304A59] bg-[#F8FEFF] w-1/6"
                       >
                         {rating}
                       </span>
@@ -158,10 +158,10 @@ export default function SwiperDoctor2() {
                     </div>
                   </div>
                 </div>
-                <div className="w-[35%]">
+                <div className="w-[25%]">
                   <img
                     src={doctor.imgSrc}
-                    className="rounded-full w-[115px] h-[115px] border-[3px] lg:border-[#fee5d6]"
+                    className="rounded-full w-full h-auto border-[3px] lg:border-[#fee5d6]"
                     alt=""
                   />
                 </div>
